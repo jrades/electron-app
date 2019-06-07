@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="option" id="close">X</div>
+            <div class="option" id="minimize">-</div>
+            <div class="icon" id="icon">
+                <img src="FinanceApp.png">
+            </div>
+        </header>
+        <div id="bodyContainer">
+            <div id="income">
+                <label for="va">Other Income</label>
+                <input type="number" id="va">
+                <label for="income1">Jordan Income</label>
+                <input type="number" id="income1">
+                <label for="income2">Callie Income</label>
+                <input type="number" id="income2">
+            </div>
+            <div id="spending">
+                <label for="card1">Visa 1</label>
+                <input type="number" id="card1">
+                <label for="card2">Visa 2</label>
+                <input type="number" id="card2">
+            </div>
+            <div id="carPayments">
+                <label for="jCar">Car 1</label>
+                <input type="number" id="jCar">
+                <label for="cCar">Car 2</label>
+                <input type="number" id="cCar">
+                <label for="ins">Car Insurance</label>
+                <input type="number" id="ins">
+            </div>
+        </div>
+        <div id="belowContainer">
+            <div id="totals">
+                <label for="totalEarned">Total Earned</label>
+                <input id="totalEarned"> 
+                <label for="totalSpent">Total Spent</label>
+                <input id="totalSpent">
+            </div>
+            
+        </div>
+        <button id="btn">Calculate</button>
+        
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/calc.js"></script>
+</body>
+</html>

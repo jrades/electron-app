@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: calibri;
+}
+
+#bodyContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+}
+
+#belowContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+}
+
+label {
+    font-size: large;
+}
+
+#totals{
+    display: flex;
+    flex-flow: column;
+}
+
+#income {
+    display: flex; 
+    flex-flow: column; 
+}
+
+#spending {
+    display: flex;
+    flex-flow: column;
+}
+
+#carPayments {
+    display: flex;
+    flex-flow: column;
+}
+
+input {
+    border-radius: 5px;
+    height: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background: #353535;
+    align-self: stretch;
+    -webkit-app-region: drag;
+}
+
+#content{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: black;
+    
+}
+
+#text{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.option{
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    -webkit-app-region: no-drag;
+}
+
+.option:hover{
+    background: darkblue;
+    box-shadow: black;
+    opacity: 80%;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.icon {
+    display: flex;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    width: 157px;
+    height: 32px;
+}
+
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    height:25px;
+    width: 100px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+button:hover{
+    background:#fff;
+    color:#1AAB8A;
+}
